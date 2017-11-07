@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>simple interest..</title>
+		<style>
+			*{
+				font-family:Segoe UI;
+				}
+				h2,h1{
+				text-align:center;
+				background-color:purple;
+				color:red;
+				}
+				table{
+					border:5px solid red;
+					}
+		</style>
+		
+		<!--internaljavascript-->
+		<script src="../scripts/si.js"/>
+			
+		</script>
+	</head>
+	<body>
+	<h2>simple interest</h2>
+	<form>
+		<table align="center" cellpadding="5"">
+			<tr>
+				<td>principle:</td>
+				<td>
+					<input type="number" name="P"
+					id="P" placeholder="enter principle"required/>
+				</td>
+			</tr>
+			<tr>
+				<td>number of years:</td>
+				<td>
+					<input type="number" name="N"
+					id="N" placeholder="enter years"required/>
+				</td>
+			</tr>
+			<tr>
+				<td>Rate:</td>
+				<td>
+					<input type="number" name="R"
+					id="R" placeholder="enter rate" required/>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<input type="submit" value="calculate interest" onclick="interest(this.form)"/>
+				</td>
+				<td>
+					<input type="reset" value="clear"/>
+				</td>
+			</tr>
+				<td>
+		</table>
+		<hr/>
+		<h1 id="res" align="center"></h1>
+	</form>
+</body>
+</html>
+
+
+
+
+//intereset.html
